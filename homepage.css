@@ -1,0 +1,96 @@
+/* ------------------------------
+   DIY Flower Studio - User Home Page
+------------------------------ */
+
+/* Welcome Section */
+.welcome-section {
+  background: linear-gradient(135deg, #f7d9e3, #d6f0ff);
+  text-align: center;
+  padding: 5rem 2rem;
+  color: #333;
+}
+
+.welcome-section h1 {
+  color: #b25d8d;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  background: #b25d8d;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #994d79;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #b25d8d;
+  color: #b25d8d;
+}
+
+.btn-outline:hover {
+  background: #b25d8d;
+  color: #fff;
+}
+
+/* Featured Section */
+.featured-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #fffafc;
+}
+
+.featured-section h2 {
+  color: #b25d8d;
+  margin-bottom: 2rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.featured-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.featured-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.featured-card h3 {
+  color: #333;
+}
